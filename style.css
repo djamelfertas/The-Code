@@ -1,0 +1,73 @@
+*{
+	margin:0;
+	padding: 0;
+}
+@font-face{
+	font-family: Roboto;
+	src:url(../font/Roboto-Bold.ttf);
+}
+.container{ width: 100%; position: relative; top: 630px; background: #FAF0F0; min-height: 630px; height: auto; z-index: 10; padding-bottom: 34px; }
+
+body{
+	font-family: Roboto;
+	background-color: #EFEBE3;
+	color: #000;
+	font-size: 17px;
+	letter-spacing: 2px;
+	width:auto;
+
+
+}
+footer{ background-color:#202020; color: #777; padding: 13px; font-family: LUCIDA,sans-serif; font-size: 15px; }
+form input[type=text], input[type=email] ,input[type=date]{
+    letter-spacing: 2px;
+	border-radius: 4px;
+	background-color:#FFF ;
+	 border:0;
+	font-family:ARIAL;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px;
+	margin-top: 4px;
+    color: #999;
+	width: 400px;
+	border:1px solid #CCC;
+}
+
+a{ text-decoration: none; color: #FFF;}
+h1{ color: #777;}
+b{ color: #777;}
+form input:focus{color: #000; border:1px solid #27aae0;}
+
+
+
+.table{	border-collapse: collapse; max-width: 100%; height: auto;  font-family: ARIAL; }
+.trBgColor{ background-color: #FAF0F0;}
+.table tr td , .table tr th {width: auto; text-align: center; padding: 5px 20px 5px 20px;   }
+.first-sec{
+	position:fixed; top:0; 
+	width:100%; background-image: url(../images/bg.jpg); background-size: 100%; 
+	background-repeat: no-repeat; height:660px;
+
+}
+
+.first-sec h1{ color: #FFF; font-size: 45px;} 
+.first-sec form input[type=submit]{ font-size: 17px; font-family: Roboto; width: 150px; background-color:#F97352; color: #FFF; height: 50px; border:0; margin-top: 14px;}
+.first-sec form input[type=submit]:hover{font-family: Roboto; background-color:#333; color: #FFF;}
+.second-sec{ 
+
+	width: 100%;
+ background-color: #FFF;	
+  width: 75%; border-radius:5px; border:1px solid #CCC; padding: 19px 19px;  
+
+}
+
+ .delete {background-color: #ff573c; width: 85px; height:30px ; padding: 4px; border:0; border-radius: 3px; color: #FFF;}
+ .delete:hover{background-color:#e25041;}
+ .edit {background-color: #2eb756; width: 85px; height:30px ; padding: 4px; border:0; border-radius: 3px; color: #FFF;}
+ .edit:hover {background-color:#41a85f;}
+ .cancel{ background-color:transparent;  border:2px solid #FFF;   width: auto;  ; padding: 12px 30px ;    }
+ .cancel:hover {background-color:#FFF; color: #000;}
+ .update input[type=submit]{background-color: #01b3fc; width: 85px; height:30px ; border:0; padding: 4px;  color: #FFF;}
+ .error{ color: red; font-family: lucida, sans-serif; position:absolute; }
+ footer { position: absolute; z-index: 11; bottom: 0; width: 100%;  text-align: center; padding: 10px 0;}
